@@ -1,0 +1,16 @@
+<div class="col-md-4">
+  <h3>Welcome to My Blog</h3>
+  <h4>Thanks for checking the blog out</h4>
+
+</div>
+
+<div class="col-md-8">
+<ul>
+  <% @posts.each do |post| %>
+      <li>
+        <%= link_to post.title, post_path(post) %> | <small> <%= time_ago_in_words(post.created_at) %> ago </small>
+        <%= link_to post.content, post_path(post) %>
+      </li>
+  <% end %>
+</ul>
+</div>
