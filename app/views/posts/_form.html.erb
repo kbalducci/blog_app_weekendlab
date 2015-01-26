@@ -14,12 +14,13 @@
   <div class="form-group">
     <%= f.label :title, "Title" %><br>
     <%= f.text_field :title, class: 'form-control', placeholder: "Blog Title" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :content, "Content"%><br>
-    <%= f.text_area :content, class: 'form-control', placeholder: "My blog post" %>
-    <p class="help-block">Type your blog post here"</p>
-  </div>
+
+    <div class="form-group">
+      <%= f.label :content, "Content"%><br>
+      <%= f.text_area :content, class: 'form-control', placeholder: "Type your blog post here" %>
+      </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>

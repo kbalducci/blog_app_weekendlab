@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails blog_app: development" uuid="7057152d-4357-4a94-bf5c-7180e9664d57">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails blog_app: test" uuid="4abfdb76-6980-4f79-a226-d684f11149d9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails blog_app: production" uuid="43387d14-a9a7-40f7-a7ec-1d1cabd69a6e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
